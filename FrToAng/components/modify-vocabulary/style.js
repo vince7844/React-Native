@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
         backgroundColor: 'white', 
         marginBottom: 10,
         marginTop: 10, 
-        marginLeft: 35,
+        alignSelf: 'center',
         width: 300
     },
     button: {

@@ -11,12 +11,14 @@ const ModifyVocabularyModal = ({ModifyVocabularyModalIsVisible, defaultValueEngl
                 <Text style={{ color: 'white', textAlign: 'center', fontSize: 18 }}>Modify your english word</Text>
                     <View style={styles.input}>
                         <TextInput defaultValue={defaultValueEnglishWord} 
+                                   style={{textAlign: 'center'}}
                                    onChangeText={(value) => onSubmitCallBackEnglishValue(value)} />
                     </View>
                </View>
                 <Text style={{ color: 'white', textAlign: 'center', fontSize: 18 }}>Modify your french word</Text>
                  <View style={styles.input}>
                         <TextInput defaultValue={defaultValueFrenchWord} 
+                                   style={{textAlign: 'center'}}
                                    onChangeText={(value) => onSubmitCallBackFrenchValue(value)} />
                 </View>
                 <View style={styles.button}>
